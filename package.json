@@ -27,11 +27,20 @@
     "db:migrate": "pnpm --filter server db:migrate"
   },
   "devDependencies": {
+    "@types/cookie-parser": "^1.4.10",
     "@types/node": "^22.14.1",
     "typescript": "^5.8.3"
   },
   "engines": {
     "node": ">=18.0.0",
     "pnpm": ">=8.0.0"
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.1.9",
+    "@nestjs/core": "^11.1.9",
+    "@nestjs/platform-express": "^11.1.9",
+    "cookie-parser": "^1.4.7",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2"
   }
-} 
+}
